@@ -10,6 +10,9 @@ base:
     name: base-service
     context-path: /base/v1/**
 
+route:
+  open:
+    endpoint: /auth/register
 
 logging:
   level:

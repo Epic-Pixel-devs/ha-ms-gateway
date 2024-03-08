@@ -1,4 +1,4 @@
-# Readme do Gateway
+# Spring Cloud Gateway
 
 ## Sumário
 
@@ -21,7 +21,11 @@
 
 ## Introdução
 
-> TODO: descreva o contexto e histórico que motivaram a construção desse Gateway.
+Serviço de Gateway usando `Spring Cloud Gateway` para fazer gerenciamento de roteamento para
+microsserviços
+responsável por direcionar o acesso para o respectivo serviço e também fazer a validação de
+autenticação
+de acesso assim como fazer o encerramento de sessão ou fazer o redirecionando para tela de login
 
 ### Objetivo
 
@@ -44,7 +48,7 @@ especificada ou superior.
 |--------------|--------|--------------------------------|
 | OpenJDK      | 17     | Plataforma Java                |
 | Apache Maven | 3.6.1  | Build e Gestão de Dependências |
-| Spring Boot  | 3.2.3  | -                              |
+| Spring Cloud | 4.1.1  | Spring Starter Gateway         |
 
 > TODO: inclua as demais dependências e tecnologias do seu projeto (ex: Redis, Oracle, RabbitMQ,
 > etc.)
@@ -131,11 +135,11 @@ desse projeto.
 
 Responsáveis pelo projeto:
 
-| Nome          | Email                           |
-|---------------|---------------------------------|
-| Márcia Helena | marcia.javadeveloper@gmail.com  |
-| Responsável 2 | responsavel2@contato.com        |
-| Responsável 3 | responsavel3@contato.com        |
+| Nome          | Email                          |
+|---------------|--------------------------------|
+| Márcia Helena | marcia.javadeveloper@gmail.com |
+| Roberto Rosa  | roberto.rosa7@gmail.com        |
+| Responsável 3 | responsavel3@contato.com       |
 
 > TODO: inclua os nomes e os contatos dos responsáveis pelo projeto.
 

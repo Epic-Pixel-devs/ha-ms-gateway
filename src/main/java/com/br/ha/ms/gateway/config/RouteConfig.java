@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class RouteLocatorConfig {
+public class RouteConfig {
 
   @Value("${base.service.uri}")
   private String uri;
