@@ -13,6 +13,8 @@ base:
 route:
   open:
     endpoint: /auth/register
+jwt:
+  secret: fbad2abb4f9b599f8eb41d7ac6a3fc836fc2cbbd
 
 logging:
   level:
