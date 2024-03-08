@@ -1,21 +1,16 @@
 server:
-  port: 8080
-  servlet:
-    context-path: /base/v1
+  port: 8081
 
-spring:
-  main:
-    banner-mode: console
-  application:
-    name: base services
-  datasource:
-    url: jdbc:mysql://192.168.15.200:3306/epic_db?useSSL=false
-    username: root
-    password:
-  jpa:
-    hibernate:
-      dialect: org.hibernate.dialect.MySQL8Dialect
-      ddl-auto: update
+application:
+  name: GATEWAY-SERVICE
+
+base:
+  service:
+    uri: http://192.168.15.200:8080
+    name: base-service
+    context-path: /base/v1/**
+
+
 logging:
   level:
     web: DEBUG
