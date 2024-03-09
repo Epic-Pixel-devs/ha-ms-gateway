@@ -6,7 +6,7 @@ application:
 
 base:
   service:
-    uri: http://localhost:8081
+    uri: http://192.16.15.200:8081
     name: base-service
     context-path: /base/v1/**
 

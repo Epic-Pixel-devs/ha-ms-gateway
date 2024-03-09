@@ -10,7 +10,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.br.epicpixel</groupId>
-  <artifactId>epixel</artifactId>
+  <artifactId>ms-gateway</artifactId>
   <version>1.0.0</version>
   <name>gateway</name>
   <description>Epic Pixel Gateway</description>
