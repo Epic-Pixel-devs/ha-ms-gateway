@@ -55,6 +55,7 @@ public class RouteFilterConfig implements GatewayFilter {
       final String token = request.getHeaders().getOrEmpty(AUTHORIZATION).get(0);
 
       try {
+        // TODO: implement others validation with information from token
         if (jwtService.isExpired(token)) {
           log.error("{} error decode token expired {}", prefix, token);
           return onError(exchange);
