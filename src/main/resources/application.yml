@@ -1,12 +1,12 @@
 server:
-  port: 8080
+  port: 8081
 
 application:
-  name: GATEWAY-SERVICE
+  name: ms-gateway
 
 base:
   service:
-    uri: http://192.168.15.200:8081
+    uri: http://201.95.98.141:8082
     name: base-service
     context-path: /base/v1/**
 
